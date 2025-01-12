@@ -192,8 +192,8 @@ border-radius: 20px;
 
 background: rgb(255, 255, 255);
 text-align: left;
-max-width: 250px;
-height: 220px;
+max-width: 270px;
+height: 230px;
 
 }
 .btn3{
@@ -202,5 +202,53 @@ height: 220px;
     /* gap: 34px; */
     /* padding: 8px 14px 8px 14px; */
     padding-left: 10px;
-
+  
+}
+.learn1{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 426;
+line-height: 14px;
+letter-spacing: 0%;
+text-align: left;
+width: 87;
+height: 29;
+}
+/* recent news style */
+.title7{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 114px;
+    margin-top: 57px;
+}
+.narate4{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 110px;
+}
+.bd5{
+    display: flex;
+    margin-left: 113px;
+    margin-right: 113px;
+    justify-content: space-between;
+}
+.satelite{
+    border-radius: 17px;
+    background: url(image);
+}
+.satelite2{
+    margin-left: 23px;
 }
