@@ -244,11 +244,105 @@ height: 29;
     margin-left: 113px;
     margin-right: 113px;
     justify-content: space-between;
+    /* width: 908; */
+    /* height: 285; */
+    /* align-items: center; */
 }
 .satelite{
     border-radius: 17px;
     background: url(image);
+    width: 280px;
+    height: 210px;
+    margin-top: 34px;
+    margin-right: 22px;
 }
 .satelite2{
     margin-left: 23px;
+    margin-top: 34px;
+}
+.title8{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 23px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.narate5{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/* donates style */
+.bd6{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title9{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 29px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.narate6{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+gap: 18;
+width: 783px;
+height: 34px;
+margin-left: 176px;
+margin-right: 176px;
+}
+.card3{
+    display: flex;
+    margin-left: 187px;
+    margin-right: 187px;
+    gap: 17px;
+    /* justify-content: space-between; */
+}
+.btn4{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 12px;
+
+background: rgb(255, 255, 255);
+width: 187px;
+height: 90px;
+font-size: 28px;
+font-weight: 600;
+text-decoration-color: rgba(14, 14, 14, 0.8);
+padding: 28px;
+/* margin-right: 187px; */
+/* margin-left: 187px; */
+}
+#btn5{
+    background-color: aquamarine;
+}
+#btn6{
+    margin-top: 20px;
+}
+input{
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 20px;
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(252, 245, 245, 0.911);
+background: rgb(255, 255, 255);
+width: 732px;
+height: 45px;
 }
