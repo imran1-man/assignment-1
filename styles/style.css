@@ -38,7 +38,14 @@ font-size: 32px;
     height: 400px;
     padding: 71px 56px;
     gap: 45px;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
 }
+/* .banner{ */
+    justify-content: center;
+    align-items: center;
+
 .title2{
     color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
@@ -48,15 +55,7 @@ line-height: 20px;
 letter-spacing: 0%;
 text-align: left;
 }
-.bd3{
-    color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 39px;
-font-weight: 700;
-line-height: 47px;
-letter-spacing: 0%;
-text-align: left;
-}
+
 .btn2{
     border-radius: 8px;
 background: rgb(0, 106, 80);
@@ -70,7 +69,7 @@ text-align: left;
 }
 .title3{
     color: rgb(14, 14, 14);
-font-family: Fira29px;
+font-family: Fira Sans;
 font-size: 40px;
 font-weight: 800;
 line-height: 48px;
@@ -78,12 +77,16 @@ letter-spacing: 0%;
 text-align: left;
 margin-left: 114px;
 margin-top: 57px;
+/* align-items: center; */
+/* text-align: center; */
 }
 .card1{
     display: flex;
     margin-left: 113px;
     margin-right: 113px;
-    column-gap: 17px;
+    column-gap: 22px;
+    justify-content: center;
+    align-items: center;
 }
 .isie{
     /* box-sizing: border-box; */
@@ -105,6 +108,7 @@ line-height: 17px;
 letter-spacing: 0%;
 text-align: left;
 padding-left: 10px;
+/* text-align: center; */
 }
 .narate1{
     color: rgba(14, 14, 14, 0.7);
@@ -120,4 +124,83 @@ padding-right: 10px;
 .style1{
     padding-left: 10px;
     padding-top: 20px;
+}
+/* bd3 style */
+.title5{color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 114px;
+    margin-top: 57px;
+    /* justify-content: center; */
+    /* text-align: center; */
+
+}
+.narate2{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 108px;
+/* margin-right: 113px; */
+/* margin-top: 18px; */
+/* justify-content: center; */
+/* align-items: center; */
+/* text-align: center; */
+}
+/* vision of future style */
+.card2{
+    display: flex;
+    margin-left: 113px;
+    margin-right: 113px;
+    column-gap: 22px;
+    justify-content: center;
+    align-items: center;
+}
+.title6{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 10px;
+}
+.narate3{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dmg{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 20px;
+
+background: rgb(255, 255, 255);
+text-align: left;
+max-width: 250px;
+height: 220px;
+
+}
+.btn3{
+    border-radius: 6px;
+    /* margin: 17px 0px; */
+    /* gap: 34px; */
+    /* padding: 8px 14px 8px 14px; */
+    padding-left: 10px;
+
 }
